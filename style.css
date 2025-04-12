@@ -61,17 +61,17 @@ button{
     padding: 1rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
+    position: relative;
 }
 
-.card:hover{
+ .card:hover{
     transform: scale(1.02);
-}
+} 
 
 .card i{
     font-size: 24px;
-    margin-top: 0.5rem;
     cursor: pointer;
-    color: #aaa;
+    color: rgba(90, 87, 87, 0.698);
 }
 .card img {
   width: 100%;
@@ -82,14 +82,7 @@ button{
 .card .descp{
     /* color: red; */
     margin-top: 0.5rem;
-    color: #333;
-}
-
-.actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.5rem;
+    color: #464141;
 }
 
 
@@ -119,5 +112,17 @@ button {
   --text-color: #000;
   --accent-color: #ffb400;
 }
+
+/* .middle{
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(2);
+  font-size: 40px;
+  opacity: 1;
+  transition: all ease 0.6s;
+} */
+
 
 
