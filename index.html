@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini News Feed</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="nav">
-      <h1>Mini News Feed <span id="time">00:00:00</span></h1>
-    </div>
-    <div class="wrapper">
-      <div class="feed">
-        <div class="card">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini News Feed</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="nav">
+    <h1>Mini News Feed<span id="time">00:00:00</span></h1>
+  </div>
+  <div class="wrapper">
+    <div class="feed" id="feed">
+      
+
+
+
+      <!-- <div class="card">
           <img
             src="https://images.unsplash.com/photo-1593789198777-f29bc259780e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG5ld3N8ZW58MHx8MHx8fDA%3D"
             alt=""
@@ -25,7 +28,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
             reprehenderit.
           </p>
-          <i class="ri-heart-fill "></i>
+          <i class="ri-heart-fill"></i>
         
         </div>
 
@@ -63,14 +66,14 @@
             reprehenderit.
           </p>
           <i class="ri-heart-fill "></i>
-        </div>
+        </div> -->
 
-
-        </div>
-      </div>
-      <button class="load-more">Load More</button>
-      <button class="theme">🌙 (Dark Mode)</button>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <button id="loadMoreBtn" class="load-more">Load More</button>
+  <button id="themeToggle" class="theme">🌙 Dark Mode</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
